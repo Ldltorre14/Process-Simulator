@@ -1,0 +1,58 @@
+.settings-container {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    border-radius: 8px;
+    box-shadow: 0px 0px 11px 8px rgba(57, 255, 20, 0.66);
+    width: 80%;
+    height: 200px;
+  }
+
+.settings-container .settings-header{
+    color: white;
+}
+
+
+.pending-batch-container{
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 0px 11px 8px rgba(77, 77, 255,0.66);
+    width: 300px;
+    height: 400px;
+    max-width: 300px;
+    max-height: 600px;
+}
+
+.pending-batch-container .pending-header{
+    color: white;
+}
+
+.running-batch-container{
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    box-shadow: 0px 0px 11px 8px rgba(255, 105, 180,0.66);
+    width: 300px;
+    height: 480px;
+    max-width: 300px;
+    max-height: 580px;
+}
+
+.running-batch-container .running-header{
+    color: whitesmoke;
+
+}
+
+.finished-batch-container{
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 0px 11px 8px rgba(255, 165, 0,0.66);
+    width: 300px;
+    height: 400px;
+    max-width: 300px;
+    max-height: 600px;
+}
+
+.finished-batch-container .finished-header{
+    color: white;
+}
