@@ -1,0 +1,15 @@
+@font-face{
+    font-family: 'pkmn-1st-gen';
+    src: url('/Fonts/5_Gen_Font.ttf') format('truetype');
+}
+
+
+
+body {
+    background-color: #e3dfdf;
+    font-family: 'pkmn-1st-gen', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  

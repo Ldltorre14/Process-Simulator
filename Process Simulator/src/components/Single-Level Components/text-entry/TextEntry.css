@@ -1,0 +1,11 @@
+.text-entry{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.text-entry input{
+    width: 80px;
+}
