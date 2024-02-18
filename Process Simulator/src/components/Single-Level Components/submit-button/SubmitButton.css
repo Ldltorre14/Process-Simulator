@@ -1,0 +1,29 @@
+.button-component {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    height: 30px;
+    width: auto;
+    border-radius: 50%;
+    border: none;
+    background-color: #6c757d; /* Un gris oscuro */
+    color: white;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.button-component:hover {
+    background-color: #5a6268; /* Un gris un poco más oscuro para el hover */
+}
+
+.button-component:active {
+    background-color: #495057; /* Un gris aún más oscuro para cuando se hace clic en el botón */
+}
+
+.icon {
+    height: 80%;
+    width: auto;
+}
