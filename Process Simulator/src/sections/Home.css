@@ -2,18 +2,31 @@
 #home{
     position: relative;
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
+    justify-content:space-between;
+    height: 600px;
     
 }
 
-
-
 #home h1{
-    margin-top: 30px;
-    margin-bottom: 30px;
+    position: relative;
     font-size: 60px;
+    margin: 20px;
+    
+}
 
+#home .processes-container{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+
+#home .settings-container{
+    margin-top: -70px;
 }
