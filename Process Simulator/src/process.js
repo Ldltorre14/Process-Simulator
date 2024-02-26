@@ -8,5 +8,7 @@ class Process{
         this.id = id;
     }
 
-
 }
+
+
+export default Process;
